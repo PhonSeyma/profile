@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital,wght@1,700&family=Poppins:wght@400;700&family=Quicksand:wght@600&family=Roboto:wght@100;300&display=swap");
+body {
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(202, 202, 202);
+}
+#navbarNav {
+  font-weight: 800;
+}
+.navbar.navbar-brand {
+  font-size: 1rem;
+  font-weight: 700;
+}
+#profile img {
+  width: 60%;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#profile h2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+#profile h3 {
+  font-weight: 700;
+  opacity: 7;
+}
+section {
+  margin: 6rem 0;
+}
+#about-me h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.Social-link {
+  margin-top: 3rem;
+  display: flex;
+}
+.link-list {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(117, 117, 117);
+  border-radius: 50%;
+  margin-left: 0.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facebook:hover {
+  background-color: blue;
+}
+.Youtube:hover {
+  background-color: red;
+}
+.Instagram:hover {
+  background-color: deeppink;
+}
+.telegram:hover {
+  background-color: aqua;
+}
+#education p {
+  line-height: .8rem;
+}
+.education-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.education-major {
+  opacity: .7;
+  font-style: italic;
+}
